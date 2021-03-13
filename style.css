@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    border:none;
+}
+
+.app{
+    height:100vh;
+    width:100vw;
+    /* display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly; */
+}
+
+.banner{
+    height:15vh;
+    text-shadow:3px 2px 9px rgb(69, 209, 87);
+
+}
+
+.elips{
+    width:5px;
+    height:5px;
+ 
+    left:65px;
+    top:-10px;
+    background:white;
+    box-shadow:3px 2px 9px rgb(69, 209, 87);
+
+}
+.elips-two{
+    width:5px;
+    height:5px;
+    left:75px;
+    top:-15px;
+}
+
+.elips-three{
+    width:5px;
+    height:5px;
+    left:85px;
+    top:-20px;
+}
+
+.banner, .footer{
+    background:gray;
+    color:white;
+    text-shadow:3px 2px 9px rgb(69, 209, 87);
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.bodyArea{
+    height:80vh;
+    background:gray;
+    width:100%;
+    z-index:3;
+}
+
+.menu, .cone{
+    width:85%;
+    height:85%;
+    border:2px solid black;
+    border-radius:10%;
+    z-index:1;
+    left:8%;
+    top:8%;
+}
+
+.count{
+    left:35%;
+}
+
+.flavorBox{
+    height:30%;
+    width:100%;
+    text-align:center;
+}
+
+
+.flavorGrid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+   
+}
+
+.menu, .cone{
+    position:absolute;
+}
+
+.melted{
+    top:75px;
+    left:125px;
+    transform:rotate(-45deg)
+}
+
+
+.cone {
+    width: 0; 
+    height: 0; 
+    border-left: 85px solid transparent;
+    border-right: 85px solid transparent;
+    border-top: 200px solid rgb(236, 181, 108);
+    top:67%;
+    display:grid;
+    grid-template-columns:repeat(20,1fr);
+    left:25%;
+    z-index:4;
+    /* overflow:hidden; */
+   
+  }
+
+
+
+  .cel{
+      height:10px;
+      width:10px;
+      border:1px solid rgb(110, 105, 74);
+      transform:rotate(180deg);
+      top:-300px;
+      left:-100px;
+      z-index:-2;
+      border:1px solid gray;
+      
+  }
+
+
+  .icecream{
+      width:200px;
+      height:200px;
+      border-radius:50%;
+      border:1px solid black;
+      position:absolute;
+      left:20%;
+
+  }
+
+  .straw{
+      background:rgb(206, 78, 99);
+      top:-400px;
+      z-index:10;
+      width:225px;
+      animation:fall 3s 8s forwards;
+      /* display:none; */
+
+  }
+  .choc{
+    background:rgb(153, 71, 23);
+    top:-400px;
+    z-index:10;
+    width:225px;
+    animation:falltwo 3s 9s forwards;
+    /* display:none; */
+
+
+}
+
+.vanilla{
+    background:rgb(252, 245, 246);
+    top:-400px;
+    z-index:10;
+    width:225px;
+    animation:fallthree 3s 10s forwards;
+    /* display:none; */
+
+
+}
+
+.item{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width:100%;
+    list-style:none;
+    text-shadow:1px 1px 1px white;
+
+}
+
+.itemBox{
+    text-align:center;
+}
+
+
+@keyframes fall{
+    0%{top:-200px;}
+    100%{top:250px;}
+}
+
+@keyframes falltwo{
+    0%{top:-200px;display:block;}
+    100%{top:175px}
+}
+
+@keyframes fallthree{
+    0%{top:-200px}
+    100%{top:75px}
+}
+
+.footer{
+    height:5vh;
+    width:100%;
+}
+
+
+
