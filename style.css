@@ -36,14 +36,18 @@
     width:5px;
     height:5px;
     left:90px;
-    top:-17px;
+    top:-14px;
 }
 
 .elips-three{
     width:5px;
     height:5px;
     left:100px;
-    top:-17px;
+    top:-21px;
+}
+
+.itemBox{
+    top:8px;
 }
 
 .banner, .footer{
