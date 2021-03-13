@@ -61,7 +61,7 @@ function animateEllipse(){
 
 animateMenu()
 
-var counter = 8;
+var counter = 10;
 var counterDOM = document.querySelector(".count")
 
 
