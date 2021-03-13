@@ -5,13 +5,13 @@ var ellipsis = document.querySelector(".ellipsis");
 var menuDOM = document.querySelector(".menu");
 
 
-for(let i=0;i<20;i++){
-    for(let j=0;j<30;j++){
-        let div = document.createElement("div");
-        div.className='cel'
-        cone.appendChild(div)
-    }
-}
+// for(let i=0;i<20;i++){
+//     for(let j=0;j<30;j++){
+//         let div = document.createElement("div");
+//         div.className='cel'
+//         cone.appendChild(div)
+//     }
+// }
 
 
 function animateEllipse(){
@@ -27,7 +27,7 @@ function animateEllipse(){
         elips.classList.add('elips-three')
         setTimeout(()=>{
             console.log('excuse you?')
-            document.querySelector(".h1name").innerHTML = "Flan"
+            document.querySelector(".h1name").innerHTML = "Flan!!"
             document.querySelector(".belated").innerHTML = "Belated"
         },1500)
     }
@@ -73,6 +73,7 @@ counter--
     }
     else{
 counterDOM.innerHTML = "ICE CREAM TIME!"
+cone.style.display='block'
 setTimeout(()=>{
     counterDOM.innerHTML =""
 },1250)

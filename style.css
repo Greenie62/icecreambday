@@ -26,8 +26,8 @@
     width:5px;
     height:5px;
  
-    left:65px;
-    top:-10px;
+    left:80px;
+    top:-12px;
     background:white;
     box-shadow:3px 2px 9px rgb(69, 209, 87);
 
@@ -35,19 +35,19 @@
 .elips-two{
     width:5px;
     height:5px;
-    left:75px;
-    top:-15px;
+    left:90px;
+    top:-17px;
 }
 
 .elips-three{
     width:5px;
     height:5px;
-    left:85px;
-    top:-20px;
+    left:100px;
+    top:-17px;
 }
 
 .banner, .footer{
-    background:gray;
+    background:lightgray;
     color:white;
     text-shadow:3px 2px 9px rgb(69, 209, 87);
 
@@ -60,9 +60,10 @@
 
 .bodyArea{
     height:80vh;
-    background:gray;
+    background:lightgray;
     width:100%;
     z-index:3;
+    text-align:center;
 }
 
 .menu, .cone{
@@ -75,9 +76,11 @@
     top:8%;
 }
 
-.count{
-    left:35%;
+.menu{
+    background:whitesmoke;
 }
+
+
 
 .flavorBox{
     height:30%;
@@ -96,9 +99,10 @@
     position:absolute;
 }
 
-.melted{
+
+.meltedSign{
     top:75px;
-    left:125px;
+    left:0%;
     transform:rotate(-45deg)
 }
 
@@ -109,11 +113,13 @@
     border-left: 85px solid transparent;
     border-right: 85px solid transparent;
     border-top: 200px solid rgb(236, 181, 108);
-    top:67%;
+    top:60%;
     display:grid;
     grid-template-columns:repeat(20,1fr);
-    left:25%;
+    left:40%;
     z-index:4;
+    border-bottom:none;
+    display:none;
     /* overflow:hidden; */
    
   }
@@ -134,12 +140,12 @@
 
 
   .icecream{
-      width:200px;
-      height:200px;
+      width:150px;
+      height:135px;
       border-radius:50%;
       border:1px solid black;
       position:absolute;
-      left:20%;
+      left:35%;
 
   }
 
@@ -196,12 +202,12 @@
 
 @keyframes falltwo{
     0%{top:-200px;display:block;}
-    100%{top:175px}
+    100%{top:185px}
 }
 
 @keyframes fallthree{
     0%{top:-200px}
-    100%{top:75px}
+    100%{top:115px}
 }
 
 .footer{
