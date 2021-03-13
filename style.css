@@ -58,6 +58,11 @@
     width:100%;
 }
 
+.banner{
+    top:-5%;
+    z-index:3;
+}
+
 .bodyArea{
     height:80vh;
     background:lightgray;
@@ -113,10 +118,10 @@
     border-left: 85px solid transparent;
     border-right: 85px solid transparent;
     border-top: 200px solid rgb(236, 181, 108);
-    top:60%;
+    top:55%;
     display:grid;
     grid-template-columns:repeat(20,1fr);
-    left:40%;
+    left:35%;
     z-index:4;
     border-bottom:none;
     display:none;
@@ -143,9 +148,9 @@
       width:150px;
       height:135px;
       border-radius:50%;
-      border:1px solid black;
+      /* border:1px solid black; */
       position:absolute;
-      left:35%;
+      left:30%;
 
   }
 
@@ -170,7 +175,7 @@
 }
 
 .vanilla{
-    background:rgb(252, 245, 246);
+    background:rgb(163, 236, 153);
     top:-400px;
     z-index:10;
     width:225px;
@@ -197,22 +202,23 @@
 
 @keyframes fall{
     0%{top:-200px;}
-    100%{top:250px;}
+    100%{top:225px;}
 }
 
 @keyframes falltwo{
     0%{top:-200px;display:block;}
-    100%{top:185px}
+    100%{top:160px}
 }
 
 @keyframes fallthree{
     0%{top:-200px}
-    100%{top:115px}
+    100%{top:90px}
 }
 
 .footer{
-    height:5vh;
+    height:10vh;
     width:100%;
+    top:-5vh;
 }
 
 

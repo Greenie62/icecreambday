@@ -1,5 +1,5 @@
 const menu={
-    flavors:['chocolate,strawberry','vanilla','mint choc chip', 'peanut butter fudge', 'rum raisin(melted, sorry not sorry!)', 'pistacchio'],
+    flavors:['chocolate','strawberry','vanilla','mint choc chip', 'rum raisin(melted, sorry not sorry!)', 'pistacchio'],
     items:[
         {name:'1 scoop', price:"1.99"},
         {name:'2 scoop', price:"3.99"},
